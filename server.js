@@ -5,7 +5,7 @@ let path=require("path")
 let Time = function (req, res, next) {
     let date = new Date();
     if (
-      date.getDay() > 0 &&
+      date.getDay() > 1 &&
       date.getDay() < 6 &&
       date.getHours() >= 9 &&
       date.getHours() < 17
